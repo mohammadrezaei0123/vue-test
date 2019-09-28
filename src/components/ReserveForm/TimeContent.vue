@@ -6,7 +6,7 @@
             <TimeTitle v-bind="titleSetter"/>
         </div>
         <div class="col-10">
-            <TimeButtonContent v-bind="titleSetter"/>
+            <TimeButtonContent :isMorning="isMorning" v-bind="titleSetter"/>
         </div>
     </div>
 </div>

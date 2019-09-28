@@ -30,11 +30,11 @@ img{
 div.a{
   
 font-family:IRANSansWeb !important;
-font-size: 0.6rem;
+font-size: 0.5rem;
 color:mediumturquoise;
 }
 div.v{
     font-family:IRANSansWeb_Bold !important;
-font-size: 0.7rem;
+font-size: 0.6rem;
 }
 </style>

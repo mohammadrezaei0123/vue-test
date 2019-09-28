@@ -1,0 +1,103 @@
+html{
+    font-size:26px;
+  
+  }
+  .App-header{
+    background-color: pink;
+  }
+  h1 {
+      font-size: 1.4rem;
+    }
+    h2{
+      font-size: 1.3rem;
+    }
+    h3{
+      font-size: 1.2rem;
+    }
+    h4{
+      font-size: 1.1rem;
+    }
+    h5{
+      font-size: 1rem;
+    }
+    h6{
+      font-size: 0.9rem;
+    }
+    p{
+      font-size: 0.8rem;
+    }
+    span{
+      font-size: 0.4rem;
+    }
+    @media only screen and (max-width: 575.98px)  { 
+    html{
+      font-size:12px;
+      
+    }
+    .doctor-item-content{
+      margin: 0;
+    }
+    .form-contents{
+      margin: 0;
+    }
+    .App-header{
+      background-color: aqua;
+    }
+   }
+  
+   @media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+    html{
+      font-size:13px;
+    }
+    .doctor-item-content{
+      margin: 0;
+    }
+    .form-contents{
+      margin: 0;
+    }
+    .App-header{
+      background-color: aqua;
+    }
+   }
+  
+   @media only screen and (min-width: 768px) and (max-width: 991.98px) { 
+    html{
+      font-size:14px;
+    }
+    .App-header{
+      background-color: red;
+    }
+   }
+  
+   @media only screen and (min-width: 992px) and (max-width: 1199.98px) { 
+    html{
+      font-size:15px;
+    }
+    .App-header{
+      background-color: yellow;
+    }
+   }
+   
+   @media only screen and (min-width: 1200px) { 
+    html{
+      font-size:16px;
+    }
+    .App-header{
+      background-color: orange;
+    }
+   }
+  
+  /* // Extra small devices (portrait phones, less than 576px)
+  @media (max-width: 575.98px) { ... }
+  
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) { ... }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) { ... }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) { ... } */

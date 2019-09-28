@@ -11,7 +11,8 @@
              </div>
              <div class="col">
                   <InlineInfoCard title="تاریخ نوبت:" :srcIcon="img1" value="دوشنبه 25 شهریور 1398"/>
-      <InlineInfoCard title="ساعت مراجه:" :srcIcon="img2" value="16:30 بعد از ظهر"/>
+     <!-- <InlineInfoCard title="ساعت مراجه:" :srcIcon="img2" value="16:30 بعد از ظهر"/> -->
+      <InlineInfoCard title="ساعت مراجه:" :srcIcon="img2" :value="$store.getters.printChooseValue"/>
       <InlineInfoCard title="نام پزشک:" :srcIcon="img3" value="دکتر علیرضا بخشی / قلب و عروق"/>
 </div>
          </div>
@@ -19,7 +20,7 @@
       <div class="container mb-1 mt-3">
           <div class="row">
               <div class="offset-3 col-5">
-                   <button type="button" class="btn btn-sm text-light w-100 d-flex justify-content-center align-items-center">ثبت نهایی و پرداخت<img class="ml-2" src="../../assets/img/yes.png" alt="" srcset=""></button>
+                   <button type="button" @click="$emit('choose',3)" class="btn btn-sm text-light w-100 d-flex justify-content-center align-items-center">ثبت نهایی و پرداخت<img class="ml-2" src="../../assets/img/yes.png" alt="" srcset=""></button>
               </div>
           </div>
       </div>

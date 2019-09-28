@@ -13,7 +13,7 @@
      <div class="container">
           <div class="row">
               <div class="offset-3 col-5">
-                   <button type="button" class="btn btn-sm text-light w-100 d-flex justify-content-center align-items-center">انتخاب نوبت<img class="ml-2" src="../../assets/img/yes.png" alt="" srcset=""></button>
+                   <button type="button" @click="$emit('choose',2)" class="btn btn-sm text-light w-100 d-flex justify-content-center align-items-center">انتخاب نوبت<img class="ml-2" src="../../assets/img/yes.png" alt="" srcset=""></button>
               </div>
           </div>
       </div>
@@ -26,6 +26,7 @@ import Calnder from "./Calnder";
 import TimeContent from "./TimeContent";
 
 export default {
+    // props:['nextStep'],
 components:{
     ArrowTitle,Calnder,TimeContent
 }

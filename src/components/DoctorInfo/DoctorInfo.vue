@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid m-0 p-0">
+  <div class="container-fluid m-0 p-0 w-100">
       <div class="row ">
           <div class="col-8 my-auto">
             <div class="d-flex flex-column justify-content-between align-items-end">

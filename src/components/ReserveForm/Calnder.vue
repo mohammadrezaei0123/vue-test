@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container mt-2">
       <div class="row">
           <div class="d-flex flex-column  mx-auto ">
               <span>نوبت ها</span>

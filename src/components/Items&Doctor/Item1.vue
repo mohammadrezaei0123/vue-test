@@ -25,6 +25,9 @@ export default {
 </script>
 
 <style scoped>
+div{
+    cursor: pointer;
+}
 /* .content{ */
     /* width: 4rem;
     height: 4rem; */

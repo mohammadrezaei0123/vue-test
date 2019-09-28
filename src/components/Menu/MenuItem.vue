@@ -9,7 +9,10 @@ props:['value']
 </script>
 <style scoped>
 div{
-  
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
   font-weight: bold;
 font-family:IRANSansWeb_Bold !important;
 font-size: 0.70rem;

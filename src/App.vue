@@ -1,11 +1,14 @@
 <template>
-  <div id="app" >
+  <div id="app">
     
-    <div class="top-shape"></div>
+    <div class="top-shape" id="tops"></div>
     <Menu></Menu>
-    <InfoContent></InfoContent>
+    <RectDotted :style='"margin-top :70px"'/>
+    <div class="position-relative" id="sti">
+      <InfoContent></InfoContent>
     <MidContent/>
     <FormContent/>
+    </div>
     <FooterContent/>
   </div>
 </template>
@@ -22,8 +25,23 @@
   import FooterContent from "./components/Footer/FooterContent";
   // import {  } from "./assets/fonts/fonts/";
 export default {
+  // data(){
+  //     return{
+  //       placement:"bottom"
+  //     }
+  // },
   components:{
     Menu,InfoContent,FormContent,RectDotted,MidContent,SwitchButton,FooterContent
+  },
+  mounted(){
+    setTimeout(function () {
+      
+    },1000)
+  },
+   computed: {
+    count () {
+      return this.$store.state.chooseValue.chooseIndex
+    }
   }
 };
 </script>
@@ -35,7 +53,8 @@ export default {
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   text-align: center;
-  color: #2c3e50;
+  /* color: #2c3e50; */
+  /* background: red */
 }
 #nav {
   padding: 30px;

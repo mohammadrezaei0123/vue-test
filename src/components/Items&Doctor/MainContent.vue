@@ -1,5 +1,5 @@
 <template>
-<div class="d-flex flex-column content1 py-2 px-3">
+<div class="d-flex flex-column content1 py-2 px-3 doctor-item-content">
   <DoctorCard/>
   <ItemContent/>
 </div>

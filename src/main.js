@@ -3,8 +3,14 @@ import App from "./App.vue";
 import router from "./router";
 import "./registerServiceWorker";
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
+import BootstrapVue from 'bootstrap-vue'
+import './font-media.css'
+import store from './store/store';
 
+Vue.use(BootstrapVue)
 
+window.store=store
 Vue.filter('convertEnToFaDig',function (val) {
   let text=val+''
   if (text.length == 0) {
@@ -44,5 +50,6 @@ Vue.filter('convertEnToFaDig',function (val) {
 // });
 
 new Vue({
+  store,
   render: h => h(App)
 }).$mount("#app");
