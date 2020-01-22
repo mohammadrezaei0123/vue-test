@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_p2"
+        tools:context=".UserSittingActivity">
+    <ImageView android:id="@+id/iconImage"
+               app:layout_constraintTop_toTopOf="parent"
+               app:layout_constraintStart_toStartOf="parent"
+               app:layout_constraintEnd_toEndOf="parent"
+               android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:scaleType="fitXY"
+               android:src="@drawable/back12"
+               app:layout_constraintDimensionRatio="1:1"/>
+    <LinearLayout app:layout_constraintTop_toBottomOf="@id/iconImage"
+                  app:layout_constraintBottom_toTopOf="@id/backButton"
+                  app:layout_constraintStart_toStartOf="parent"
+                  android:layout_margin="10dp"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:breakStrategy="high_quality"
+                  android:text="لطفاً سوالات ،نظرات و پیشنهادات خود را در کادر زیر ثبت نمایید."
+                  android:layout_gravity="right"
+                  android:textColor="@color/black_p1"
+                  android:textSize="@dimen/text_login_size"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:breakStrategy="high_quality"
+                  android:text=" پس از برسی پاسخ نهایتاً تا یک روز بعد به ایمیلتان ارسال میگردد"
+                  android:layout_gravity="right"
+                  android:textColor="@color/black_p1"
+                  android:textSize="@dimen/text_login_size"
+        />
+        <AutoCompleteTextView
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white_p2"
+                android:textColorHint="@color/white_p2"
+                android:gravity="right"
+                android:minHeight="100dp"
+                android:background="@color/gray_p"
+                android:hint="متن ارسالی برای پشتیبان"
+                android:layout_height="wrap_content"
+                android:id="@+id/autoCompleteTextView"/>
+
+    </LinearLayout>
+
+
+    <Button android:id="@+id/backButton"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:textColor="@color/text_button_color"
+            android:textSize="@dimen/text_login_size"
+            android:background="@drawable/button_shape"
+            android:text="بازگشت"
+            android:layout_height="wrap_content"/>
+</android.support.constraint.ConstraintLayout>

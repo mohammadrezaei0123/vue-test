@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.alik">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+            android:name=".appCoustomSitting.FontSttings1"
+            android:allowBackup="true"
+            android:icon="@drawable/ic_concept_map_512"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".aliii">
+        </activity>
+        <activity
+                android:name=".MangerActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".PruchBasketActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".MySizeActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".MyServiceActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".UserPanelActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".UserSittingActivity"
+                android:screenOrientation="portrait">
+        </activity>
+
+        <receiver android:name=".appCoustomSitting.UpdateReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+
+        <activity
+                android:name=".MainPanelActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".ForgetPasswordActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".SignUpActivity"
+                android:screenOrientation="portrait">
+        </activity>
+        <activity
+                android:name=".LoginActivity"
+                android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>

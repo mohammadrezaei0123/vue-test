@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/gray_p"
+                android:padding="1dip" >
+    <TextView
+            android:id="@+id/spinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/gray_p"
+            android:textColor="@color/white_p2"
+            android:gravity="right"
+            android:text="d"
+            android:padding="5dp"
+            android:textSize="@dimen/text_login_size" >
+    </TextView>
+</RelativeLayout>

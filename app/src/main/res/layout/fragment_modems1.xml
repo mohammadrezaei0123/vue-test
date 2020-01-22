@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:background="@color/white_p2"
+             tools:context=".Modems1Fragment">
+<android.support.constraint.ConstraintLayout android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/checkboxLinear"
+                  android:layout_width="match_parent"
+                  app:layout_constraintTop_toTopOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  android:orientation="vertical"
+                  android:layout_height="wrap_content">
+        <CheckBox android:id="@+id/configCheck"
+                  android:layout_width="match_parent"
+                  android:layoutDirection="rtl"
+                  android:textSize="18sp"
+                  android:text="نیاز به نصب مودم توسط تکنسین نصب دارم."
+                  android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/modemCheck"
+                  android:layout_width="match_parent"
+                  android:layoutDirection="rtl"
+                  android:textSize="18sp"
+                  android:text="نیاز به مودم"
+
+                  android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+    <GridView android:id="@+id/modemGrid"
+              android:layout_width="match_parent"
+              app:layout_constraintTop_toBottomOf="@id/checkboxLinear"
+              app:layout_constraintStart_toStartOf="parent"
+              android:layoutDirection="rtl"
+              android:gravity="center"
+              android:numColumns="2"
+              android:visibility="gone"
+              app:layout_constraintEnd_toEndOf="parent"
+              app:layout_constraintBottom_toBottomOf="parent"
+              android:layout_height="0dp"/>
+</android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

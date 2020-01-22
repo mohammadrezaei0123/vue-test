@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">network</string>
+    <string name="password_string">رمز عبور</string>
+    <string name="re_password_string">تکرار رمز عبور</string>
+    <string name="user_name_string">نام کاربری</string>
+    <string name="forget_password_string">فراموشی رمز عبور؟!</string>
+    <string name="enter_string">ورود</string>
+    <string name="signup_string">ثبت نام</string>
+    <string name="pruch_servise_string">خرید سرویس</string>
+    <string name="pruch_limit_string">خرید حجم</string>
+    <string name="user_panel_string">پنل کاربری</string>
+    <string name="support">پشتیبانی</string>
+    <string name="umber_string">کد ملی</string>
+    <string name="forget_enter_string">لطفا ایمیل خود را وارد نمایید تا رمز جدید ارسال گردد. جهت ورود به صفحه قبل
+        برگردید.
+    </string>
+    <string name="phone_number_string">تلفن همراه</string>
+    <string name="const_phone_number_string">نام خانوادگی</string>
+    <string name="pleace_speed_string">لطفاً سرعت مورد نظر خود را انتخاب نمایید</string>
+    <string name="pleace_pried_string">لطفاً مدت زمان مورد نظر خود را انتخاب نمایید</string>
+    <string name="email_string">نام</string>
+    <string name="accept_cost_string">تایید و پرداخت</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_data_string">در حال دریافت اطلاعات...</string>
+    <string name="back_image">back image</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495e</color>
+    <color name="colorPrimaryDark">#2c3e50</color>
+    <color name="colorAccent">#424242</color>
+    <color name="text_button_color">#222831</color>
+    <color name="hint_color">#e4f9f5</color>
+    <color name="forgert_color">#6fe7dd</color>
+    <color name="mide_blue">#00adb5</color>
+    <color name="gray_p">#393e46</color>
+    <color name="black_p">#222831</color>
+    <color name="white_p">#eeeeee</color>
+    <color name="blue_P">#00adb5</color>
+    <color name="black_p1">#1b262c</color>
+    <color name="blue2_P1">#0f4c75</color>
+    <color name="blue1_P1">#3282b8</color>
+    <color name="blue_P1">#bbe1fa</color>
+    <color name="white_p2">#fffdf6</color>
+    <color name="crime_P2">#faf9e9</color>
+    <color name="crime1_p2">#ece8d9</color>
+    <color name="black_P2">#494949</color>
+</resources>

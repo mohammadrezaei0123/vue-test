@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white_p2"
+        tools:context=".SignUpActivity">
+
+    <AutoCompleteTextView
+            android:id="@+id/emailSignUp"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/text_login_size"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:gravity="right"
+            android:hint="@string/email_string"/>
+    <AutoCompleteTextView
+            android:id="@+id/constPhoneNumberSignUp"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/emailSignUp"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/text_login_size"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:gravity="right"
+            android:hint="@string/const_phone_number_string"/>
+    <AutoCompleteTextView
+            android:id="@+id/usernameSignUp"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/constPhoneNumberSignUp"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:textSize="@dimen/text_login_size"
+            android:gravity="right"
+            android:hint="@string/user_name_string"/>
+    <!--<AutoCompleteTextView-->
+            <!--android:id="@+id/numberIdentificationSignUp"-->
+            <!--android:layout_width="0dp" android:layout_height="wrap_content"-->
+            <!--app:layout_constraintTop_toBottomOf="@id/emailSignUp"-->
+            <!--android:layout_margin="20dp"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--android:textSize="@dimen/text_login_size"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--android:textColor="#fff"-->
+            <!--android:shadowColor="@color/hint_color"-->
+            <!--android:outlineAmbientShadowColor="@color/hint_color"-->
+            <!--android:textColorHint="@color/hint_color"-->
+            <!--android:textColorHighlight="@color/hint_color"-->
+            <!--android:textColorLink="@color/hint_color"-->
+            <!--android:outlineSpotShadowColor="@color/hint_color"-->
+            <!--android:inputType="number"-->
+            <!--android:gravity="right"-->
+            <!--android:hint="@string/umber_string"/>-->
+    <AutoCompleteTextView
+            android:id="@+id/phoneNumberSignUp"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/usernameSignUp"
+            android:layout_margin="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:textSize="@dimen/text_login_size"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:inputType="number"
+            android:gravity="right"
+            android:hint="@string/phone_number_string"/>
+
+    <AutoCompleteTextView
+            android:id="@+id/passworduserSignUp"
+                          android:layout_width="0dp" android:layout_height="wrap_content"
+                          app:layout_constraintTop_toBottomOf="@id/phoneNumberSignUp"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginStart="20dp"
+                          android:layout_marginEnd="20dp"
+                          android:textSize="@dimen/text_login_size"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:inputType="textPassword"
+                          app:layout_constraintStart_toStartOf="parent"
+                          app:layout_constraintEnd_toEndOf="parent"
+                          android:gravity="right"
+                          android:hint="@string/password_string"/>
+    <AutoCompleteTextView
+            android:id="@+id/repassworduserSignUp"
+                          android:layout_width="0dp" android:layout_height="wrap_content"
+                          app:layout_constraintTop_toBottomOf="@id/passworduserSignUp"
+                          android:layout_marginTop="10dp"
+                          android:layout_marginStart="20dp"
+            android:textColor="@color/gray_p"
+            android:shadowColor="@color/gray_p"
+            android:outlineAmbientShadowColor="@color/gray_p"
+            android:textColorHint="@color/gray_p"
+            android:textColorHighlight="@color/gray_p"
+            android:textColorLink="@color/gray_p"
+            android:outlineSpotShadowColor="@color/gray_p"
+            android:layout_marginEnd="20dp"
+                          android:textSize="@dimen/text_login_size"
+                          android:inputType="textPassword"
+                          app:layout_constraintStart_toStartOf="parent"
+                          app:layout_constraintEnd_toEndOf="parent"
+                          android:gravity="right"
+                          android:hint="@string/re_password_string"/>
+
+    <Button android:id="@+id/signUpButton"
+            android:layout_width="0dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_shape"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:gravity="center"
+            android:textSize="@dimen/text_login_size"
+            android:textColor="@color/text_button_color"
+            android:text="@string/signup_string"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <LinearLayout
+            android:id="@+id/progressLinnerSingUp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/black_light_back"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="match_parent"
+    >
+        <!--<android.support.constraint.ConstraintLayout android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content">-->
+        <LinearLayout android:layout_width="wrap_content"
+                      android:gravity="center"
+                      android:background="@drawable/progress_back"
+                      android:padding="20dp"
+                      android:layout_height="wrap_content"
+                      app:layout_constraintTop_toTopOf="parent"
+                      app:layout_constraintBottom_toBottomOf="parent"
+                      app:layout_constraintStart_toStartOf="parent"
+                      app:layout_constraintEnd_toEndOf="parent"
+                      android:orientation="vertical">
+            <ProgressBar android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+            <TextView android:layout_width="wrap_content"
+                      android:textSize="@dimen/text_login_size"
+                      android:textColor="#fff"
+                      android:layout_height="wrap_content"
+                      android:text="در حال دریافت اطلاعات..."/>
+        </LinearLayout>
+        <!--</android.support.constraint.ConstraintLayout>-->
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
